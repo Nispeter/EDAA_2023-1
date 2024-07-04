@@ -1,0 +1,23 @@
+extencion .sh
+secuencia de comandos para hacer automatizaciones 
+RegEX
+#####
+for n in {1..100}
+for n in $(comando)
+for n in 100 200 1000 3000
+do 
+	echo $n
+	./programa $n
+
+	for p in 1 10 100
+	do
+		echo $n $p
+		./programa $n $p
+		./programa $n $p > salida_${n}_${p}
+done
+#####
+Ejecucion de .sh
+bash comandos.sh
+sh comandos.sh
+Busqueda reversa
+CTRL + R 
